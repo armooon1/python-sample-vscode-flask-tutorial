@@ -38,7 +38,7 @@ displayName: 'Install dependencies'
 
  
 
-  - task: PublishBuildArtifacts@1 
+  - task: PublishBuildArtifacts@1
 
     inputs: 
 
@@ -48,9 +48,9 @@ displayName: 'Install dependencies'
 
       publishLocation: 'Container' 
 
- 
 
-  - script: | 
+
+  - script: |
 
       pip install pytest pytest-azurepipelines 
 
